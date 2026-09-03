@@ -122,6 +122,7 @@ services:
     tty: true
     ports:
       - "42420:42420"
+      - "42420:42420/udp"
     volumes:
       - ./data:/data/server-file
 ```
